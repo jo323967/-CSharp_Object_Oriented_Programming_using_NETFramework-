@@ -1,0 +1,24 @@
+
+
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        public static void Main()
+        {
+            Console.Write("Enter A String : ");
+            String s = Console.ReadLine();
+            Console.WriteLine("The initial string: '{0}'", s);
+            s = s.Replace("j", "b").Replace("h", "c").Replace("n", "d");
+            Console.WriteLine("The final string: '{0}'", s);
+            Console.ReadLine();
+        }
+    }
+}
