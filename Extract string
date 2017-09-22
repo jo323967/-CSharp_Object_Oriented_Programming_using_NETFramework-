@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Extract
+{
+    class StringProg
+    {
+        static void Main(string[] args)
+        {
+            string str;
+            int count = 0;
+            string[] strArr = null;
+            str = "CSharp split test";
+            char[] splitchar = { ' ' };
+            strArr = str.Split(splitchar);
+            for (count = 0; count <= strArr.Length - 1; count++)
+            {
+               Console.WriteLine(strArr[count]);
+                Console.ReadLine();   
+            }
+        }
+    }
+}
