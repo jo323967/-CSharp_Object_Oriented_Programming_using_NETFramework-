@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+    namespace Substring
+    {
+        class StringProg
+        {
+            static void Main(string[] args)
+            {
+                string str = "welcome to C sharp programming"; /* Input a sample string*/
+                Console.WriteLine(str);                          /* getting the string into a variable*/
+                string substr = str.Substring(23);               /* Getting its value from 23rd position from starting*/
+                Console.WriteLine(substr);                       /* outputting the value */
+                Console.ReadLine(); 
+            }
+        }
+    }
+
+    
+              
