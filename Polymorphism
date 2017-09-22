@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Polymorphism
+{
+    class Test
+    {
+        static void Foo(object a)
+        {
+            Console.WriteLine("Object overload called");
+        }
+
+        static void Foo(string a)
+        {
+            Console.WriteLine("String overload called");
+        }
+
+        static void Main()
+        {
+            object x = "hello";     //'x' is getting  the value as a string only at the run time 
+            Foo(x);
+            Console.WriteLine(x); 
+            Console.ReadLine();
+        }
+    }
+}
